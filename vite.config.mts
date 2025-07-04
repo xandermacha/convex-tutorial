@@ -6,8 +6,5 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 10000,
-    outDir: "docs",
   },
-  base: "https://xandermacha.github.io/convex-tutorial/",
-
 });
