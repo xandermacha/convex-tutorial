@@ -5,7 +5,7 @@ RUN npm install -g bun
 COPY package.json bun.lock ./
 RUN bun install
 
-COPY self-hosted/run.sh .
+COPY backend/run.sh .
 COPY convex convex
 
 ENTRYPOINT ["/bin/bash", "./run.sh"]
